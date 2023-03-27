@@ -6,36 +6,75 @@
     box-sizing: border-box;
 }
 
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* Header */
+
 nav {
+    background-color: #fff;
     height: 80px;
+    width: 100%;
+    position: fixed;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
+
+/* jumbo settings */
 .jumbotrone {
-    height: 500px;
+    background-color: #b6cfe7;
+    padding: 0 20%;
 }
+
+.jumbo-container {
+    margin-top: 100px;
+    max-width: 100%;
+}
+
+.jumbo-contained {
+    width: 30%;
+    float: left;
+}
+
+
+
 
 /* DEBUG */
-nav {
-    border: 1px solid blue;
-}
+/* header */
 
-.left {
+nav section {
     height: 100%;
-    border: 1 dotted red;
+    width: 30%;
+    border: 1px dotted red;
 }
 
+/* jumbo */
 .jumbotrone {
     border: 1px solid blue;
+
 }
 
+.jumbotrone img {
+    max-width: 70%;
+}
+
+.jumbo-container {
+    border: 2px dashed violet;
+}
+
+/* main */
 section {
     height: 400px;
     border: 2px dotted yellow;
 }
 
+
+/* footer */
 footer {
     height: 600px;
     border: 1px solid black;
