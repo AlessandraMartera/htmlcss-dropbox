@@ -250,10 +250,13 @@ section.sponsor {
 footer {
     color: #fff;
     background-color: black;
+    padding: 10% 0;
 }
 
 footer section {
-    margin: 10% 20%;
+    margin: 0 20%;
+    display: flex;
+    justify-content: space-between;
 }
 
 ul {
