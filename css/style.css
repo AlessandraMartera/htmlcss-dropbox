@@ -6,6 +6,13 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+button {
+    border: none;
+}
 .clearfix {
     content: "";
     display: table;
@@ -22,6 +29,11 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+nav > section {
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -43,7 +55,7 @@ nav {
 
 /* main */
 main section {
-    padding: 0 20%;
+    margin: 5% 20%;
 }
 
 /* section one, row one */
@@ -62,6 +74,7 @@ main section {
     border-bottom: 1px solid gray;
 }
 
+
 /* plane section, row one */
 
 .row-plane-two{
@@ -77,6 +90,26 @@ main section {
     float: right;
 }
 
+
+/* find partner sectioon */
+.find-partner {
+    display: flex;
+}
+
+.find-partner img {
+    width: 100%;
+}
+
+.find-partner div {
+    width: 50%;
+}
+
+.find-partner .text {
+    padding: 40px;
+    font-size: 22px;
+}
+
+
 /* operation section */
 .row-operation {
     display: flex;
@@ -85,6 +118,68 @@ main section {
 
 .col-operation {
     width: 30%;
+}
+
+/* sponsor section */
+section.sponsor {
+    margin: 0;
+}
+
+.part-sponsor {
+    display: flex;
+}
+
+.logo-part-sponsor, .text-part-sponsor {
+    width: calc(100% / 3); 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo-part-sponsor div {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-part-sponsor img, .text-part-sponsor img{
+    max-width: 70%;
+}
+
+.text-part-sponsor{
+    padding: 40px;
+    background-color: #f5f5f5;
+
+}
+
+#text-description-sponsor {
+    overflow: auto;
+    padding: 10px 0;
+    border-top: 1px gray;
+}
+
+.try-free {
+    background-color: #b6cfe7;
+    padding: 100px 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.try-free div:first-child {
+    color: #600b2b;
+    font-size: 40px;
+    width: 70%;
+}
+
+.try-free div:last-child {
+    width: 30%;
+    text-align: right;
+}
+
+.try-free button {
+    background-color: #fff;
+    padding: 10px 40px;
 }
 /* DEBUG */
 /* header */
@@ -111,7 +206,7 @@ nav section {
 
 /* main */
 section {
-    height: 400px;
+    height: 600px;
     border: 2px dotted yellow;
 }
 
@@ -119,6 +214,10 @@ section > div {
     border: dashed pink;
 }
 
+
+section img {
+    border: 1px dashed pink;
+}
 /* operation section */
 .row-operation {
     border: 2px dashed #00cf00;
@@ -128,10 +227,28 @@ section > div {
     border: 1px dotted #045700;
 }
 
+/* sponsor section */
+.part-sponsor {
+    width: 100%;
+    height: 400px;
+}
+
+.logo-part-sponsor, .text-part-sponsor {
+    border: 3px solid blue;
+    height: 100%;
+}
+
+.logo-part-sponsor div {
+    border: #045700 dotted 3px;
+    
+}
+
 
 /* footer */
 footer {
     height: 600px;
     border: 1px solid black;
 }
+
+
 
