@@ -1,0 +1,43 @@
+/* general settings */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+nav {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jumbotrone {
+    height: 500px;
+}
+
+/* DEBUG */
+nav {
+    border: 1px solid blue;
+}
+
+.left {
+    height: 100%;
+    border: 1 dotted red;
+}
+
+.jumbotrone {
+    border: 1px solid blue;
+}
+
+section {
+    height: 400px;
+    border: 2px dotted yellow;
+}
+
+footer {
+    height: 600px;
+    border: 1px solid black;
+}
+
