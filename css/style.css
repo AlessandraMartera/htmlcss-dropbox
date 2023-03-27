@@ -41,7 +41,41 @@ nav {
     float: left;
 }
 
+/* main */
+main section {
+    padding: 0 20%;
+}
 
+/* section one, row one */
+.row-plane-one {    
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.col-plane {
+    border: 1px solid gray;
+    width: 28%;
+}
+
+.col-plane > div {
+    border-bottom: 1px solid gray;
+}
+
+/* section one, row one */
+
+.row-plane-two{
+    width: 100%;
+    border: 1px solid gray;
+}
+
+.row-plane-two div:first-child {
+    border-bottom: 1px solid gray;
+}
+
+.row-plane-two button {
+    float: right;
+}
 
 
 /* DEBUG */
