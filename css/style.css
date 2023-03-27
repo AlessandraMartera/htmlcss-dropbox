@@ -12,11 +12,20 @@ body {
 
 button {
     border: none;
+    padding: 10px 40px;
+    color: #fff;
+    background-color: #315bfe;
+    cursor: pointer;
 }
 .clearfix {
     content: "";
     display: table;
     clear: both;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 /* Header */
@@ -29,16 +38,20 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 1000;
 }
 
 nav > section {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 30%;
 }
-
 
 /* jumbo settings */
 .jumbotrone {
+    position: relative;
     background-color: #b6cfe7;
     padding: 0 20%;
     border: 1px solid rgba(0, 0, 255, 0);
@@ -54,13 +67,36 @@ nav > section {
     float: left;
 }
 
-
 .jumbotrone img {
     max-width: 70%;
+    position: relative;
+    top: 70px;
+}
+
+.jumbotrone h1{
+    font-size: 60px;
+    font-weight: 900;
+    margin: 30px 0;
+}
+
+.jumbotrone p, .jumbotrone button {
+    margin: 20px 0;
+}
+
+.jumbotrone .icon {
+    font-size: 50px; 
+    position: absolute;
+    bottom: 0;
+    left: 20%;
 }
 
 
 /* main */
+
+main{
+    margin-top: 100px;
+}
+
 main section {
     margin: 5% 20%;
 }
@@ -212,25 +248,38 @@ section.sponsor {
 }
 /* footer */
 footer {
-
+    color: #fff;
+    background-color: black;
 }
 
+footer section {
+    margin: 10% 20%;
+}
 
+ul {
+    list-style: none;
+}
 
+ul a {
+    color: #fff;
+    line-height: 300%;
+}
+
+footer h1 {
+    line-height: 300%;
+}
 /* DEBUG */
 /* header */
 
-nav section {
-    height: 100%;
-    width: 30%;
+/* nav section {
     border: 1px dotted red;
-}
+} */
 
 /* jumbo */
 
-.jumbo-container {
+/* .jumbo-container {
     border: 2px dashed violet;
-}
+} */
 
 /* main */
 /* main section {
