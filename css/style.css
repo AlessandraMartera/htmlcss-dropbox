@@ -107,6 +107,9 @@ section {
     border: 2px dotted yellow;
 }
 
+section > div {
+    border: dashed pink;
+}
 
 /* footer */
 footer {
