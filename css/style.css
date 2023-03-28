@@ -30,7 +30,7 @@ button {
     color: #fff;
     background-color: #315bfe;
     cursor: pointer;
-    transition: all 1s ease;
+    transition: all 0.5s;
 }
 
 button:hover {
@@ -136,6 +136,7 @@ main section {
 .check-box {
     margin: 30px 0;
     line-height: 20px;
+    
 }
 
 .check:hover {
@@ -149,6 +150,7 @@ main section {
     border-radius: 50px;
     border: 2px solid gray;
     display: inline-block;
+    transition: all 0.5s;
 }
 
 /* row one */
@@ -336,7 +338,9 @@ main li {
 }
 
 #descript-sponsor{
-    
+    height: 200px;
+    overflow: auto;
+    border-top: 1px solid gray;
 }
 
 
@@ -391,6 +395,7 @@ footer {
     color: #fff;
     background-color: black;
     padding: 50px 20%;
+    font-size: 14px;
 }
 
 footer section:first-child {
@@ -409,6 +414,7 @@ footer a {
 
 footer h1 {
     line-height: 300%;
+    font-size: 22px;
 }
 
 /* language */
