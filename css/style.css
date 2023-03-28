@@ -17,7 +17,8 @@ button {
     background-color: #315bfe;
     cursor: pointer;
 }
-.clearfix {
+
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
@@ -28,6 +29,10 @@ a {
     color: black;
 }
 
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
 /* Header */
 
 nav {
@@ -100,8 +105,33 @@ main{
 main section {
     margin: 5% 20%;
 }
+/*  plane section, */
+.plane h1 {
+    font-size: 40px;
+}
 
-/* section one, row one */
+/* chek */
+.check-box {
+    margin: 30px 0;
+    line-height: 20px;
+}
+.check{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    border: solid #315bfe 5px;
+    display: inline-block;
+}
+
+.check-none {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    border: 2px solid gray;
+    display: inline-block;
+}
+
+/* row one */
 .row-plane-one {    
     display: flex;
     justify-content: space-between;
@@ -113,13 +143,33 @@ main section {
     width: 28%;
 }
 
-.col-plane > div {
+
+.type-plane {
+    text-align: center;
     border-bottom: 1px solid gray;
+    padding: 5px;
+}
+
+.col-plane > ul {
+    /* border-bottom: 1px solid gray; */
+    margin: 20px 20px;
+}
+
+main li {
+    margin: 20px 0;
+    display: flex;
 }
 
 
-/* plane section, row one */
+.mounth {
+    color: gray;
+}
 
+.fa-check, li a {
+    color: #315bfe;
+}
+
+/* WAIT A SECC */
 .row-plane-two{
     width: 100%;
     border: 1px solid gray;
@@ -133,6 +183,12 @@ main section {
     float: right;
 }
 
+.special-plane {
+    margin: 40px;
+}
+.special-plane li{
+    justify-content: space-between;
+}
 
 /* find partner sectioon */
 .find-partner {
@@ -151,6 +207,7 @@ main section {
     padding: 40px;
     font-size: 22px;
 }
+
 
 
 /* operation section */
@@ -193,7 +250,7 @@ section.sponsor {
 .text-part-sponsor{
     padding: 40px;
     background-color: #f5f5f5;
-
+    
 }
 
 #text-description-sponsor {
@@ -222,7 +279,8 @@ section.sponsor {
 
 .try-free button {
     background-color: #fff;
-    padding: 10px 40px;
+    border: 1px solid black;
+    color: black;
 }
 
 /* faq section */
@@ -246,15 +304,15 @@ section.sponsor {
     width: 10%;
     text-align: center;
 }
+
 /* footer */
 footer {
     color: #fff;
     background-color: black;
-    padding: 10% 0;
+    padding: 50px 20%;
 }
 
-footer section {
-    margin: 0 20%;
+footer section:first-child {
     display: flex;
     justify-content: space-between;
 }
@@ -263,7 +321,7 @@ ul {
     list-style: none;
 }
 
-ul a {
+footer a {
     color: #fff;
     line-height: 300%;
 }
@@ -271,24 +329,42 @@ ul a {
 footer h1 {
     line-height: 300%;
 }
+
+/* language */
+.language {
+    border-top: 1px solid #9b9a9a;
+    margin-top: 20px;
+    padding: 20px 5px;
+}
+
+
+
 /* DEBUG */
+
+h1,h2,h3,h4 {
+    border: 3px dotted orange;
+}
+
+i {
+    border: 1px dotted fuchsia;
+}
 /* header */
 
-/* nav section {
+nav section {
     border: 1px dotted red;
-} */
+}
 
 /* jumbo */
 
-/* .jumbo-container {
+.jumbo-container {
     border: 2px dashed violet;
-} */
+}
 
 /* main */
-/* main section {
+/* /* main section {
     height: 800px;
     border: 2px dotted yellow;
-}
+} */
 
 section > div {
     border: dashed pink;
@@ -297,19 +373,23 @@ section > div {
 
 section img {
     border: 1px dashed pink;
-} */
+} 
 
+/* plane  */
+.col-plane li{
+    border: 1px dotted goldenrod;
+}
 /* operation section */
-/* .row-operation {
+.row-operation {
     border: 2px dashed #00cf00;
 }
 
 .col-operation {
     border: 1px dotted #045700;
-} */
+}
 
 /* sponsor section */
-/* .part-sponsor {
+.part-sponsor {
     width: 100%;
     height: 400px;
 }
@@ -322,14 +402,14 @@ section img {
 .logo-part-sponsor div {
     border: #045700 dotted 3px;
     
-} */
+}
 
 
 /* footer */
-footer {
+/* footer {
     height: 600px;
     border: 1px solid black;
-}
+} */
 
 
 
