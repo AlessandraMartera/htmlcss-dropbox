@@ -10,6 +10,14 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+h1 {
+    font-size: 40px;
+}
+
+.text-blu {
+    color: #315bfe;
+}
+
 button {
     border: none;
     padding: 10px 40px;
@@ -106,9 +114,9 @@ main section {
     margin: 5% 20%;
 }
 /*  plane section, */
-.plane h1 {
+/* .plane h1 {
     font-size: 40px;
-}
+} */
 
 /* chek */
 .check-box {
@@ -165,10 +173,6 @@ main li {
     color: gray;
 }
 
-.fa-check, li a {
-    color: #315bfe;
-}
-
 /* WAIT A SECC */
 .row-plane-two{
     width: 100%;
@@ -211,6 +215,11 @@ main li {
 
 
 /* operation section */
+
+.operation h1 {
+    font-size: 40px;
+}
+
 .row-operation {
     display: flex;
     justify-content: space-between;
@@ -218,7 +227,18 @@ main li {
 
 .col-operation {
     width: 30%;
+    margin: 30px 0;
 }
+
+.col-operation img {
+    width: 100%;
+}
+
+/* discover section */
+.discover h1{
+    margin-bottom: 30px;
+}
+
 
 /* sponsor section */
 section.sponsor {
