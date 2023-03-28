@@ -287,34 +287,70 @@ main li {
 
 .logo-one {
     background-color: #a2d39c;
+    transition: all 0.5s;
+}
+
+.logo-one:hover {
+    border: 15px solid #c3f6bc;
 }
 
 .logo-two {
     background-color: #600b2b;
+    transition: all 0.5s;
+}
+
+.logo-two:hover {
+    border: 15px solid #932e55;
 }
 
 .logo-three {
     background-color: #2691cd;
+    transition: all 0.5s;
+}
+
+.logo-three:hover {
+    border: 15px solid #5eb3e5;
 }
 
 .logo-four {
     background-color: #fc2823;
+    transition: all 0.5s;
 }
+.logo-four:hover {
+    border: 15px solid #ff726f;
+}
+
 
 .logo-five{
     background-color: #d21223;
+    transition: all 0.5s;
+}
+.logo-five:hover {
+    border: 15px solid #d7505c;
 }
 
 .logo-six {
     background-color: #b6cfe7;
+    transition: all 0.5s;
+}
+.logo-six:hover {
+    border: 15px solid #e2edf8;
 }
 
 .logo-seven {
     background-color: #1a2080;
+    transition: all 0.5s;
+}
+.logo-seven:hover {
+    border: 15px solid #3c429b;
 }
 
 .logo-eight {
     background-color: #fcda37;
+    transition: all 0.5s;
+}
+.logo-eight:hover {
+    border: 15px solid #ffec90;
 }
 
 .text-part-sponsor{
