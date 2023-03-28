@@ -7,11 +7,17 @@
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
     font-size: 40px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .text-blu {
@@ -24,13 +30,13 @@ button {
     color: #fff;
     background-color: #315bfe;
     cursor: pointer;
+    transition: all 1s ease;
 }
 
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
+button:hover {
+    opacity: 0.7;
 }
+
 
 a {
     text-decoration: none;
@@ -41,6 +47,7 @@ a:hover {
     text-decoration: underline;
     cursor: pointer;
 }
+
 /* Header */
 
 nav {
@@ -60,6 +67,17 @@ nav > section {
     align-items: center;
     height: 100%;
     width: 30%;
+}
+
+nav div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+nav div:hover{
+    border-bottom: 2px solid gray;
+    cursor: pointer;
 }
 
 /* jumbo settings */
@@ -92,7 +110,7 @@ nav > section {
     margin: 30px 0;
 }
 
-.jumbotrone p, .jumbotrone button {
+p, .jumbotrone button {
     margin: 20px 0;
 }
 
@@ -113,25 +131,19 @@ main{
 main section {
     margin: 5% 20%;
 }
-/*  plane section, */
-/* .plane h1 {
-    font-size: 40px;
-} */
 
 /* chek */
 .check-box {
     margin: 30px 0;
     line-height: 20px;
 }
-.check{
-    width: 20px;
-    height: 20px;
-    border-radius: 50px;
+
+.check:hover {
     border: solid #315bfe 5px;
-    display: inline-block;
+    cursor: pointer;
 }
 
-.check-none {
+.check {
     width: 20px;
     height: 20px;
     border-radius: 50px;
@@ -212,6 +224,13 @@ main li {
     font-size: 22px;
 }
 
+.find-partner button {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    font-size: 15px;
+    padding: 10px 10px;
+}
 
 
 /* operation section */
