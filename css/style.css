@@ -33,11 +33,6 @@ button {
     transition: all 0.5s;
 }
 
-button:hover {
-    opacity: 0.7;
-}
-
-
 a {
     text-decoration: none;
     color: black;
@@ -75,10 +70,6 @@ nav div{
     align-items: center;
 }
 
-nav div:hover{
-    border-bottom: 2px solid gray;
-    cursor: pointer;
-}
 
 /* jumbo settings */
 .jumbotrone {
@@ -100,8 +91,6 @@ nav div:hover{
 
 .jumbotrone img {
     max-width: 70%;
-    position: relative;
-    top: 70px;
 }
 
 .jumbotrone h1{
@@ -110,7 +99,7 @@ nav div:hover{
     margin: 30px 0;
 }
 
-p, .jumbotrone button {
+p {
     margin: 20px 0;
 }
 
@@ -132,7 +121,7 @@ main section {
     margin: 5% 20%;
 }
 
-/* chek */
+/* check */
 .check-box {
     margin: 30px 0;
     line-height: 20px;
@@ -182,12 +171,15 @@ main li {
     display: flex;
 }
 
-
 .mounth {
     color: gray;
 }
 
-/* WAIT A SECC */
+.col-plane i{
+    margin-right: 4px;
+}
+
+/* WAIT A SEC */
 .row-plane-two{
     width: 100%;
     border: 1px solid gray;
@@ -204,6 +196,7 @@ main li {
 .special-plane {
     margin: 40px;
 }
+
 .special-plane li{
     justify-content: space-between;
 }
@@ -255,11 +248,11 @@ main li {
     width: 100%;
 }
 
+
 /* discover section */
 .discover h1{
     margin-bottom: 30px;
 }
-
 
 /* sponsor section */
 .sponsor {
@@ -287,77 +280,40 @@ main li {
 
 .logo-one {
     background-color: #a2d39c;
-    transition: all 0.5s;
-}
-
-.logo-one:hover {
-    border: 15px solid #c3f6bc;
 }
 
 .logo-two {
     background-color: #600b2b;
-    transition: all 0.5s;
-}
-
-.logo-two:hover {
-    border: 15px solid #932e55;
 }
 
 .logo-three {
     background-color: #2691cd;
-    transition: all 0.5s;
-}
-
-.logo-three:hover {
-    border: 15px solid #5eb3e5;
 }
 
 .logo-four {
     background-color: #fc2823;
-    transition: all 0.5s;
 }
-.logo-four:hover {
-    border: 15px solid #ff726f;
-}
-
 
 .logo-five{
     background-color: #d21223;
-    transition: all 0.5s;
-}
-.logo-five:hover {
-    border: 15px solid #d7505c;
 }
 
 .logo-six {
     background-color: #b6cfe7;
-    transition: all 0.5s;
-}
-.logo-six:hover {
-    border: 15px solid #e2edf8;
 }
 
 .logo-seven {
     background-color: #1a2080;
-    transition: all 0.5s;
-}
-.logo-seven:hover {
-    border: 15px solid #3c429b;
 }
 
 .logo-eight {
     background-color: #fcda37;
-    transition: all 0.5s;
-}
-.logo-eight:hover {
-    border: 15px solid #ffec90;
 }
 
 .text-part-sponsor{
     padding: 40px;
     background-color: #f5f5f5;
 }
-
 
 .logo-part-sponsor svg {
     fill: #fff;
@@ -378,7 +334,6 @@ main li {
     overflow: auto;
     border-top: 1px solid gray;
 }
-
 
 .try-free {
     background-color: #b6cfe7;
@@ -410,6 +365,7 @@ main li {
     font-size: 50px;
     border-bottom: 1px solid #9b9a9a;
 }
+
 .faq .request {
     line-height: 100px;
     font-weight: 700;
@@ -462,77 +418,84 @@ footer h1 {
 
 
 
-/* DEBUG */
+/************
 
-/* h1,h2,h3,h4 {
-    border: 3px dotted orange;
-}
+    DEBUG
 
-i {
-    border: 1px dotted fuchsia;
-} */
+*************/
+
+    /* h1,h2,h3,h4 {
+        border: 3px dotted orange;
+    }
+
+    i {
+        border: 1px dotted fuchsia;
+    } */
+
+
 /* header */
+    /* nav section {
+        border: 1px dotted red;
+    } */
 
-/* nav section {
-    border: 1px dotted red;
-} */
 
 /* jumbo */
+    /* .jumbo-container {
+        border: 2px dashed violet;
+    } */
 
-/* .jumbo-container {
-    border: 2px dashed violet;
-} */
 
 /* main */
-/* /* main section {
-    height: 800px;
-    border: 2px dotted yellow;
-} */
-/* 
-section > div {
-    border: dashed pink;
-}
+    /* main section {
+        height: 800px;
+        border: 2px dotted yellow;
+    } */
+    /* 
+    section > div {
+        border: dashed pink;
+    }
 
+    section img {
+        border: 1px dashed pink;
+    }  */
 
-section img {
-    border: 1px dashed pink;
-}  */
 
 /* plane  */
-/* .col-plane li{
-    border: 1px dotted goldenrod;
-} */
-/* operation section */
-/* .row-operation {
-    border: 2px dashed #00cf00;
-}
+    /* .col-plane li{
+        border: 1px dotted goldenrod;
+    } */
+    /* operation section */
+    /* .row-operation {
+        border: 2px dashed #00cf00;
+    }
 
-.col-operation {
-    border: 1px dotted #045700;
-} */
+    .col-operation {
+        border: 1px dotted #045700;
+    } */
+
 
 /* sponsor section */
-/* .part-sponsor {
-    width: 100%;
-    height: 400px;
-}
+    /* .part-sponsor {
+        width: 100%;
+        height: 400px;
+    }
 
-.logo-part-sponsor, .text-part-sponsor {
-    border: 3px solid blue;
-    height: 100%;
-}
+    .logo-part-sponsor, .text-part-sponsor {
+        border: 3px solid blue;
+        height: 100%;
+    }
 
-.logo-part-sponsor div {
-    border: #045700 dotted 3px;
-    
-} */
+    .logo-part-sponsor div {
+        border: #045700 dotted 3px;
+        
+    } */
 
 
 /* footer */
-/* footer {
-    height: 600px;
-    border: 1px solid black;
-} */
+    /* footer {
+        height: 600px;
+        border: 1px solid black;
+    } */
 
 
 

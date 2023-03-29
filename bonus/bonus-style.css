@@ -1,0 +1,63 @@
+/************************************
+
+
+    Here we have all bunus style
+    
+
+************************************/
+
+/* General Settings */
+
+button:hover {
+    opacity: 0.7;
+}
+
+nav div:hover{
+    border-bottom: 2px solid gray;
+    cursor: pointer;
+}
+
+
+.jumbotrone img {
+    position: relative;
+    top: 70px;
+}
+
+/* SPONSOR SECTION */
+
+    .logo-part-sponsor div {
+        transition: all 0.5s;
+    }
+
+    .logo-one:hover{
+        border: 15px solid #c3f6bc;
+    }
+
+    .logo-two:hover {
+        border: 15px solid #932e55;
+    }
+
+    .logo-three:hover {
+        border: 15px solid #5eb3e5;
+    }
+    
+    .logo-four:hover {
+        border: 15px solid #ff726f;
+    }
+    
+    .logo-five:hover {
+        border: 15px solid #d7505c;
+    }
+
+    .logo-six:hover {
+        border: 15px solid #e2edf8;
+    }
+
+    .logo-seven:hover {
+        border: 15px solid #3c429b;
+    }
+
+    .logo-eight:hover {
+        border: 15px solid #ffec90;
+    }
+    
