@@ -61,3 +61,26 @@ nav div:hover{
         border: 15px solid #ffec90;
     }
     
+
+/* ANSWER TO REQUEST'S FaQ */
+.request {
+    position: relative;
+}
+
+.answer {
+    width: 100%;
+    line-height: 30px;
+    font-weight: 400;
+    padding: 10px 30px;
+    border-bottom: 1px solid #9b9a9a;
+    background-color: aliceblue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 500;
+    display: none;
+}
+
+.request:active .answer{
+    display: inline-block;
+}

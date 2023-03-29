@@ -366,11 +366,12 @@ main li {
     border-bottom: 1px solid #9b9a9a;
 }
 
-.faq .request {
+.request {
     line-height: 100px;
     font-weight: 700;
     border-bottom: 1px solid #9b9a9a;
     display: flex;
+    cursor: pointer;
 }
 
 .request div:first-child {
