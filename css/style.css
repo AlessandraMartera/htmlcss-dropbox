@@ -24,9 +24,14 @@ h1 {
     color: #315bfe;
 }
 
+p {
+    margin: 30px 0;
+}
+
 button {
     border: none;
     padding: 10px 40px;
+    margin: 20px 0;
     color: #fff;
     background-color: #315bfe;
     cursor: pointer;
@@ -50,9 +55,10 @@ nav {
     height: 80px;
     width: 100%;
     position: fixed;
+    top: 0;
+    left: 0;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     z-index: 1000;
 }
 
@@ -75,8 +81,8 @@ nav div{
 .jumbotrone {
     position: relative;
     background-color: #b6cfe7;
-    padding: 0 20%;
-    border: 1px solid rgba(0, 0, 255, 0);
+    padding: 10px 20%;
+    /* border: 1px solid rgba(0, 0, 255, 0); */
 }
 
 .jumbo-container {
@@ -85,6 +91,7 @@ nav div{
 }
 
 .jumbo-contained {
+    margin-top: 40px;
     width: 30%;
     float: left;
 }
@@ -95,12 +102,6 @@ nav div{
 
 .jumbotrone h1{
     font-size: 60px;
-    font-weight: 900;
-    margin: 30px 0;
-}
-
-p {
-    margin: 20px 0;
 }
 
 .jumbotrone .icon {
@@ -322,11 +323,7 @@ main li {
 
 .text-part-sponsor svg {
     fill: #000;
-    width: 50%;
-}
-
-#title-sponsor {
-    height: fit-content;
+    max-width: 50%;
 }
 
 #descript-sponsor{
@@ -435,8 +432,12 @@ footer h1 {
 
 
 /* header */
-    /* nav section {
+    /* nav {
         border: 1px dotted red;
+    }
+
+    header {
+        border: #000 2px dashed;
     } */
 
 

@@ -65,6 +65,7 @@ nav div:hover{
 /* ANSWER TO REQUEST'S FaQ */
 .request {
     position: relative;
+    transition: all 1s;
 }
 
 .answer {
