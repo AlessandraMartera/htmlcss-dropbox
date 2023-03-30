@@ -23,6 +23,37 @@ nav div:hover{
     top: 70px;
 }
 
+
+/* DROP-DOWN-MENU */
+
+nav {
+    position: relative;
+}
+
+.drop-down:active{
+    position: relative;
+    height: 300px;
+    background-color: #f5fbfebc;
+    border: 1px solid gray
+}
+
+.drop-menu {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.drop-menu li {
+    margin: 8px 4px;
+    border-top: 1px solid #9b9a9a;
+}
+
+.drop-down:active .drop-menu{
+    display: inline-block;
+
+}
+
 /* SPONSOR SECTION */
 
     .logo-part-sponsor div {
